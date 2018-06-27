@@ -1,0 +1,39 @@
+{
+  "name": "code_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "compile-watch": "webpack --watch",
+    "start:basic": "babel-node app.js",
+    "start": "npm-run-all --parallel start:basic compile-watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bootstrap": "^4.1.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "npm-run-all": "^4.1.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-infinite": "^0.13.0",
+    "react-lazy-load": "^3.0.13",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
